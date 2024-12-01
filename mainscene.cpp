@@ -10,6 +10,10 @@ MainScene::MainScene(QWidget *parent)
     this->setFixedSize(320, 588);
 
     this->setWindowIcon(QIcon(":/res/Coin0001.png"));
+
+    connect(ui->actionend, &QAction::triggered, [=](){
+        this->close();
+    });
 }
 
 MainScene::~MainScene()
