@@ -288,9 +288,21 @@
 			null
 		],
 		[
+			"C:/Users/XCHU3/Documents/CoinFilp/dataconfig.h",
+			"MU",
+			"EWIEGA46WW/moc_dataconfig.cpp",
+			null
+		],
+		[
 			"C:/Users/XCHU3/Documents/CoinFilp/mainscene.h",
 			"MU",
 			"EWIEGA46WW/moc_mainscene.cpp",
+			null
+		],
+		[
+			"C:/Users/XCHU3/Documents/CoinFilp/mycoin.h",
+			"MU",
+			"EWIEGA46WW/moc_mycoin.cpp",
 			null
 		],
 		[
@@ -362,8 +374,10 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/XCHU3/Documents/CoinFilp/chooselevelscene.cpp", "MU", null ],
+		[ "C:/Users/XCHU3/Documents/CoinFilp/dataconfig.cpp", "MU", null ],
 		[ "C:/Users/XCHU3/Documents/CoinFilp/main.cpp", "MU", null ],
 		[ "C:/Users/XCHU3/Documents/CoinFilp/mainscene.cpp", "MU", null ],
+		[ "C:/Users/XCHU3/Documents/CoinFilp/mycoin.cpp", "MU", null ],
 		[ "C:/Users/XCHU3/Documents/CoinFilp/mypushbutton.cpp", "MU", null ],
 		[ "C:/Users/XCHU3/Documents/CoinFilp/playscene.cpp", "MU", null ]
 	],

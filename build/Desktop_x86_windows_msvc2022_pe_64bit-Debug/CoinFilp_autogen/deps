@@ -6,19 +6,25 @@ CoinFilp_autogen/timestamp: \
 	C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	C:/Users/XCHU3/Documents/CoinFilp/chooselevelscene.cpp \
 	C:/Users/XCHU3/Documents/CoinFilp/chooselevelscene.h \
+	C:/Users/XCHU3/Documents/CoinFilp/dataconfig.cpp \
+	C:/Users/XCHU3/Documents/CoinFilp/dataconfig.h \
 	C:/Users/XCHU3/Documents/CoinFilp/main.cpp \
 	C:/Users/XCHU3/Documents/CoinFilp/mainscene.cpp \
 	C:/Users/XCHU3/Documents/CoinFilp/mainscene.h \
+	C:/Users/XCHU3/Documents/CoinFilp/mycoin.cpp \
+	C:/Users/XCHU3/Documents/CoinFilp/mycoin.h \
 	C:/Users/XCHU3/Documents/CoinFilp/mypushbutton.cpp \
 	C:/Users/XCHU3/Documents/CoinFilp/mypushbutton.h \
 	C:/Users/XCHU3/Documents/CoinFilp/playscene.cpp \
 	C:/Users/XCHU3/Documents/CoinFilp/playscene.h \
 	C:/Users/XCHU3/Documents/CoinFilp/res.qrc \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QList \
+	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QMap \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QObject \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QRect \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QSize \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QSizeF \
+	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QVector \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20iterator.h \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20memory.h \
@@ -146,6 +152,7 @@ CoinFilp_autogen/timestamp: \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qutf8stringview.h \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qvariant.h \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qvarlengtharray.h \
+	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qvector.h \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qversiontagging.h \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qxptype_traits.h \
 	C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qyieldcpu.h \

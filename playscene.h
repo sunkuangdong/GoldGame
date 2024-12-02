@@ -12,8 +12,8 @@ public:
 
     void paintEvent(QPaintEvent *);
 
-
     int levelIndex;
+    int gameArray[4][4];
 signals:
     void chooseSceneBack();
 };
