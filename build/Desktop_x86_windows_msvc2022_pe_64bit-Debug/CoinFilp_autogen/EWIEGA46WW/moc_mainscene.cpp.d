@@ -1,4 +1,5 @@
 C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CoinFilp_autogen/EWIEGA46WW/moc_mainscene.cpp: C:/Users/XCHU3/Documents/CoinFilp/mainscene.h \
+  C:/Users/XCHU3/Documents/CoinFilp/chooselevelscene.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20iterator.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20memory.h \

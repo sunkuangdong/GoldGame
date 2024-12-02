@@ -51,3 +51,50 @@ void MyPushButton::zoom2()
 
     animation->start(QAbstractAnimation::DeleteWhenStopped);
 }
+
+void MyPushButton::mousePressEvent(QMouseEvent * e)
+{
+    if(this->pressImgPath != "")
+    {
+        QPixmap pix;
+        bool ret = pix.load(pressImgPath);
+
+        if(!ret){
+            QString str = QString("We can not load image!").arg(this->pressImgPath);
+            qDebug() << "";
+            return;
+        }
+
+        this->setFixedSize(pix.width(), pix.height());
+
+        this->setStyleSheet("QPushButton{border: 0px;}");
+
+        this->setIcon(pix);
+
+        this->setIconSize(QSize(pix.width(), pix.height()));
+    }
+    QPushButton::mousePressEvent(e);
+}
+void MyPushButton::mouseReleaseEvent(QMouseEvent * e)
+{
+    if(this->pressImgPath != "")
+    {
+        QPixmap pix;
+        bool ret = pix.load(normarlImgPath);
+
+        if(!ret){
+            QString str = QString("We can not load image!").arg(this->normarlImgPath);
+            qDebug() << "";
+            return;
+        }
+
+        this->setFixedSize(pix.width(), pix.height());
+
+        this->setStyleSheet("QPushButton{border: 0px;}");
+
+        this->setIcon(pix);
+
+        this->setIconSize(QSize(pix.width(), pix.height()));
+    }
+    QPushButton::mouseReleaseEvent(e);
+}

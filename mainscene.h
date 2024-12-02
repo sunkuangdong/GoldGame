@@ -1,5 +1,6 @@
 #ifndef MAINSCENE_H
 #define MAINSCENE_H
+#include "chooselevelscene.h"
 
 #include <QMainWindow>
 
@@ -18,6 +19,9 @@ public:
     ~MainScene();
 
     void paintEvent(QPaintEvent *);
+
+    ChooseLevelScene * chooseScene;
+
 
 private:
     Ui::MainScene *ui;
