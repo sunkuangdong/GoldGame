@@ -23,6 +23,7 @@ public:
     int max = 8;
 
     bool isAnimation = false;
+    bool isWin = false;
 signals:
 };
 

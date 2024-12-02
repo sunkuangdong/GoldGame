@@ -120,6 +120,26 @@ PlayScene::PlayScene(int levelNumber)
                         coinBtn[coin->posX][coin->posY + 1]->changeFlag();
                         this->gameArray[coin->posX][coin->posY + 1] = this->gameArray[coin->posX][coin->posY + 1] == 1 ? 0 : 1;
                     }
+
+                    this->win = true;
+                    for (int k = 0; k < 4; ++k) {
+                        for (int l = 0; l < 4; ++l) {
+                            if(!coinBtn[k][l]->flag)
+                            {
+                                this->win = false;
+                                break;
+                            }
+                        }
+                    }
+                    if(this->win)
+                    {
+                        qDebug() << "You win!";
+                        for (int k = 0; k < 4; ++k) {
+                            for (int l = 0; l < 4; ++l) {
+                                coinBtn[k][l]->isWin = true;
+                            }
+                        }
+                    }
                 });
             });
         }

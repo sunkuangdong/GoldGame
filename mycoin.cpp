@@ -80,7 +80,7 @@ void MyCoin::changeFlag()
 
 void MyCoin::mousePressEvent(QMouseEvent * e)
 {
-    if(this->isAnimation)
+    if(this->isAnimation || this->isWin)
     {
         return;
     }
