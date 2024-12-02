@@ -1,5 +1,11 @@
 C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CoinFilp_autogen/EWIEGA46WW/moc_mainscene.cpp: C:/Users/XCHU3/Documents/CoinFilp/mainscene.h \
   C:/Users/XCHU3/Documents/CoinFilp/chooselevelscene.h \
+  C:/Users/XCHU3/Documents/CoinFilp/playscene.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QList \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QObject \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QRect \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QSize \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QSizeF \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20functional.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20iterator.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/q20memory.h \
@@ -30,10 +36,16 @@ C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-De
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qcontainerinfo.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qcontainertools_impl.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qcontiguouscache.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qcoreapplication.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qcoreapplication_platform.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qcoreevent.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qdarwinhelpers.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qdatastream.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qdeadlinetimer.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qdebug.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qelapsedtimer.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qendian.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qeventloop.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qexceptionhandling.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qflags.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qfloat16.h \
@@ -45,12 +57,14 @@ C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-De
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qglobalstatic.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qhash.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qhashfunctions.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qiodevice.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qiodevicebase.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qiterable.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qiterator.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qlatin1stringview.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qline.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qlist.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qlocale.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qlogging.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qmalloc.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qmap.h \
@@ -60,6 +74,7 @@ C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-De
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qmetatype.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qminmax.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qnamespace.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qnativeinterface.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qnumeric.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qobject.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qobject_impl.h \
@@ -114,35 +129,49 @@ C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-De
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qtversionchecks.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qtypeinfo.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qtypes.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qurl.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qutf8stringview.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qvariant.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qvarlengtharray.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qversiontagging.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qxptype_traits.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/qyieldcpu.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/QPaintEvent \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/QTransform \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qaction.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qbitmap.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qbrush.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qcolor.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qcursor.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qevent.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qeventpoint.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qfont.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qfontinfo.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qfontmetrics.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qguiapplication_platform.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qicon.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qimage.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qinputdevice.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qinputmethod.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qkeysequence.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qpaintdevice.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qpalette.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qpixelformat.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qpixmap.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qpointingdevice.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qpolygon.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qregion.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qrgb.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qrgba64.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qscreen_platform.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qtgui-config.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qtguiexports.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qtguiglobal.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qtransform.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qvector2d.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMainWindow \

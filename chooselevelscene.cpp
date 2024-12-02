@@ -35,13 +35,25 @@ ChooseLevelScene::ChooseLevelScene(QWidget *parent)
         this->chooseSceneBack();
     });
 
+
+    palyScene = nullptr;
     for (int i = 0; i < 20; ++i) {
         MyPushButton * menuBtn = new MyPushButton(":/res/LevelIcon.png");
         menuBtn->setParent(this);
         menuBtn->move(25+(i%4)*70, 140+(i/4)*70);
 
         connect(menuBtn, &MyPushButton::clicked, [=](){
-            qDebug() << i+1;
+            palyScene = new PlayScene(i+1);
+
+            this->hide();
+            this->palyScene->show();
+
+            connect(this->palyScene, &PlayScene::chooseSceneBack, [=](){
+                delete this->palyScene;
+                this->palyScene = nullptr;
+                this->show();
+
+            });
         });
         QLabel * label = new QLabel;
         label->setParent(this);

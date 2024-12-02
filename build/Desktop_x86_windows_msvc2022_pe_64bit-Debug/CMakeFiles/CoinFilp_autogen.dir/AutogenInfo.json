@@ -298,6 +298,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mypushbutton.cpp",
 			null
+		],
+		[
+			"C:/Users/XCHU3/Documents/CoinFilp/playscene.h",
+			"MU",
+			"EWIEGA46WW/moc_playscene.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -358,7 +364,8 @@
 		[ "C:/Users/XCHU3/Documents/CoinFilp/chooselevelscene.cpp", "MU", null ],
 		[ "C:/Users/XCHU3/Documents/CoinFilp/main.cpp", "MU", null ],
 		[ "C:/Users/XCHU3/Documents/CoinFilp/mainscene.cpp", "MU", null ],
-		[ "C:/Users/XCHU3/Documents/CoinFilp/mypushbutton.cpp", "MU", null ]
+		[ "C:/Users/XCHU3/Documents/CoinFilp/mypushbutton.cpp", "MU", null ],
+		[ "C:/Users/XCHU3/Documents/CoinFilp/playscene.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

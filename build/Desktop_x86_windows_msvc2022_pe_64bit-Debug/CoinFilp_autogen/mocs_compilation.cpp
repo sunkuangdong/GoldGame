@@ -2,3 +2,4 @@
 #include "EWIEGA46WW/moc_chooselevelscene.cpp"
 #include "EWIEGA46WW/moc_mainscene.cpp"
 #include "EWIEGA46WW/moc_mypushbutton.cpp"
+#include "EWIEGA46WW/moc_playscene.cpp"
