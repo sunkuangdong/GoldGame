@@ -1,4 +1,5 @@
 C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CoinFilp_autogen/EWIEGA46WW/moc_playscene.cpp: C:/Users/XCHU3/Documents/CoinFilp/playscene.h \
+  C:/Users/XCHU3/Documents/CoinFilp/mycoin.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QList \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QObject \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtCore/QRect \
@@ -173,7 +174,10 @@ C:/Users/XCHU3/Documents/CoinFilp/build/Desktop_x86_windows_msvc2022_pe_64bit-De
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMainWindow \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/QPushButton \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/qabstractbutton.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmainwindow.h \
+  C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/qpushbutton.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/qsizepolicy.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtabwidget.h \
   C:/softwares/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtwidgets-config.h \
