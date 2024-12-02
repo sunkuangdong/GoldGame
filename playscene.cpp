@@ -10,6 +10,7 @@
 #include <QLabel>
 #include <QTimer>
 #include <QFont>
+#include <QPropertyAnimation>
 
 PlayScene::PlayScene(int levelNumber)
 {
@@ -58,6 +59,14 @@ PlayScene::PlayScene(int levelNumber)
             this->gameArray[i][j] = config.mData[this->levelIndex][i][j];
         }
     }
+
+    // perpar successful picture
+    QLabel * winLabel = new QLabel;
+    QPixmap temPix;
+    temPix.load(":/res/LevelCompletedDialogBg.png");
+    winLabel->setPixmap(temPix);
+    winLabel->setParent(this);
+    winLabel->move((this->width() - temPix.width()) * 0.5, -temPix.height());
 
     for (int i = 0; i < 4; ++i) {
         for (int j = 0; j < 4; ++j) {
@@ -139,6 +148,15 @@ PlayScene::PlayScene(int levelNumber)
                                 coinBtn[k][l]->isWin = true;
                             }
                         }
+
+                        // animation for win
+                        QPropertyAnimation * animation = new QPropertyAnimation(winLabel, "geometry", this);
+                        animation->setDuration(1000);
+                        animation->setStartValue(QRect(winLabel->x(), winLabel->y()-20, winLabel->width(), winLabel->height()));
+                        animation->setEndValue(QRect(winLabel->x(), winLabel->y(), winLabel->width(), winLabel->height()));
+
+                        animation->setEasingCurve(QEasingCurve::OutBounce);
+                        animation->start(QAbstractAnimation::DeleteWhenStopped);
                     }
                 });
             });
