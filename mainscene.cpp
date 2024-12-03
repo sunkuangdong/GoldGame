@@ -6,7 +6,6 @@
 #include <QPainter>
 #include <QDebug>
 #include <QTimer>
-
 MainScene::MainScene(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainScene)
@@ -21,6 +20,8 @@ MainScene::MainScene(QWidget *parent)
         this->close();
     });
 
+    // sound
+
     // choose level
     chooseScene = new ChooseLevelScene;
 
@@ -31,6 +32,7 @@ MainScene::MainScene(QWidget *parent)
     connect(chooseScene, &ChooseLevelScene::chooseSceneBack, [=](){
         QTimer::singleShot(200, this, [=](){
             chooseScene->hide();
+            this->setGeometry(chooseScene->geometry());
             this->show();
         });
     });
@@ -41,6 +43,7 @@ MainScene::MainScene(QWidget *parent)
 
         QTimer::singleShot(500, this, [=](){
             this->hide();
+            chooseScene->setGeometry(this->geometry());
             chooseScene->show();
         });
     });

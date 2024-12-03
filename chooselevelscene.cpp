@@ -44,11 +44,12 @@ ChooseLevelScene::ChooseLevelScene(QWidget *parent)
 
         connect(menuBtn, &MyPushButton::clicked, [=](){
             palyScene = new PlayScene(i+1);
-
             this->hide();
+            this->palyScene->setGeometry(this->geometry());
             this->palyScene->show();
 
             connect(this->palyScene, &PlayScene::chooseSceneBack, [=](){
+                this->setGeometry(this->palyScene->geometry());
                 delete this->palyScene;
                 this->palyScene = nullptr;
                 this->show();
